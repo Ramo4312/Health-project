@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.register-form {
+	font-size: 1.3rem;
+	width: 500px;
+	/* background: rgba(139, 139, 139, 0.5); */
+	background: linear-gradient(
+		45deg,
+		rgba(139, 139, 139, 0.5) 1%,
+		rgb(0, 0, 0, 0.3),
+		rgb(139, 139, 139, 0.5),
+		rgb(139, 139, 139, 0.5),
+		rgb(0, 0, 0, 0.1),
+		rgb(139, 139, 139, 0.5)
+	);
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 0 0 30px rgb(0, 0, 0, 0.4);
+	/* padding: 20px; */
+	display: flex;
+	flex-direction: column;
+	margin: 45px auto;
+	border-radius: 1.6vw;
+	/* backdrop-filter: blur(13px); */
+}
+
+.register-form > input {
+	width: 70%;
+	height: 40px;
+	border-radius: 13px;
+	text-align: center;
+	border: none;
+	margin: 15px auto;
+	font-family: 'Electrolize', sans-serif;
+	font-size: 0.8em;
+	transition: 0.4s;
+}
+
+.register-form > input:hover {
+	background-color: rgba(122, 253, 190, 0.698);
+	transform: translateY(-3px);
+}
+
+.register-form > input:focus {
+	transform: translateY(2px);
+	transition: 0.6s;
+	background-color: aliceblue;
+}
+
+.register-form > h3 {
+	text-shadow: 0 3px 0 #000000, 0 -2px 1px rgba(0, 255, 128, 0.574);
+	margin: auto;
+	color: aliceblue;
+	font-family: 'Electrolize', sans-serif;
+	font-size: 1.8em;
+	margin-bottom: 20px;
+}
+
+.register-btn {
+	background: rgb(0, 255, 136);
+	font-family: 'Electrolize', sans-serif;
+	/* box-shadow: 0 20px 30px -6px black, 0 0px 4px -8px black; */
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 13px;
+	width: 200px;
+	height: 40px;
+	margin: 15px auto;
+	transition: 0.5s;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.register-btn:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 20px 30px -6px rgb(134, 255, 134), 0 0px 4px -8px rgb(0, 255, 0),
+		inset 0 0 100px rgb(255, 255, 255);
+	transition: 0.7s;
+	border: none;
+}
+
+.register-btn:active {
+	transform: translateY(2px);
+	box-shadow: 0 20px 20px -6px rgb(134, 255, 134), 0 0px 1px -8px rgb(0, 255, 0);
+	transition: 0.3s;
+}
+
+.gender-select {
+	background-color: transparent;
+	width: 21.3vw;
+}
+
+.radio-group {
+	margin: auto;
+}
+
+.css-zxtyt4-MuiPaper-root-MuiAppBar-root {
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+
+/* .css-hyum1k-MuiToolbar-root {
+  display: block !important;
+  -webkit-box-align: start;
+} */
+
+/* .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+	padding: 8px 14px !important;
+} */

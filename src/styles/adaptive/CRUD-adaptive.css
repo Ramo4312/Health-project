@@ -1,0 +1,141 @@
+@media all and (max-width: 630px) {
+	.crud-block {
+		width: 80vw;
+	}
+	.crud-inputs-block3 {
+		width: 70vw;
+	}
+	.crud-inputs-block4 {
+		width: 70vw;
+	}
+	.crud-inputs {
+		height: 35px;
+	}
+	.input-block2 {
+		width: 90%;
+	}
+	.avatar-image {
+		width: 50px !important;
+		height: 50px !important;
+	}
+	.avatar-text {
+		font-size: 2.3vw;
+	}
+	.delete-btn {
+		width: 100vw;
+	}
+}
+
+@media all and (max-width: 570px) {
+	.crud-inputs__inner-select {
+		width: 130px;
+	}
+	.crud-inputs-mini {
+		width: 15vw;
+		height: 30px;
+		font-size: 15px;
+	}
+	.crud-inputs {
+		height: 31px;
+		font-size: 16px;
+	}
+	.create-btn {
+		width: 250px;
+		height: 32px;
+		font-size: 1em;
+	}
+	.radio-crud > span {
+		/* width: 10px; */
+		font-size: 12px !important;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.crud-inputs__inner-select {
+		width: 110px;
+	}
+	.css-18nu0jg-MuiFormLabel-root-MuiInputLabel-root {
+		font-size: 0.8em !important;
+	}
+	.crud-inputs-block1 {
+		margin: 1em;
+	}
+	.crud-inputs-mini {
+		width: 17vw;
+		height: 25px;
+		font-size: 13px;
+	}
+	.avatar {
+		margin-left: 0;
+		margin-right: 8vw;
+	}
+	.inputs-width {
+		font-size: 13px;
+	}
+}
+
+@media all and (max-width: 450px) {
+	.radio-crud > span {
+		/* width: 10px; */
+		font-size: 10px !important;
+		/* padding: 0 2px 5px 0; */
+	}
+}
+
+@media all and (max-width: 400px) {
+	.css-18nu0jg-MuiFormLabel-root-MuiInputLabel-root {
+		font-size: 0.8em !important;
+	}
+	.crud-inputs__inner-select {
+		width: 100px;
+	}
+	.create-btn {
+		width: 57vw;
+	}
+	.crud-inputs-block4-select {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.crud-inputs__inner-select {
+		width: 130px;
+	}
+	.crud-inputs-mini {
+		height: 30px;
+	}
+	.crud-input-block1 {
+		margin: 1em;
+	}
+	.input-form2 {
+		margin: 1em 2em 0 2em;
+	}
+	.avatar {
+		margin: 1em;
+	}
+	.avatar-text {
+		font-size: 0.8em;
+	}
+	.input-block2__right {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 35vw;
+		margin-right: 5vw;
+	}
+	.radio-crud > span {
+		/* width: 10px; */
+		/* font-size: 10px !important; */
+		padding: 0 2px 5px 0;
+	}
+	.gender-select {
+		margin-left: 8vw !important;
+	}
+}
+
+@media all and (max-width: 340px) {
+	.radio-crud > span {
+		/* width: 10px; */
+		/* font-size: 10px !important; */
+		padding: 0 0px 5px 0;
+	}
+}

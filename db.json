@@ -1,0 +1,260 @@
+{
+	"specifical": [
+		{
+			"name": "0",
+			"surname": "0",
+			"age": "1",
+			"height": "1",
+			"weight": "1",
+			"sex": "female",
+			"bloodType": "yes",
+			"allergy": "1",
+			"disability": "yes",
+			"injury": "11",
+			"illness": "1",
+			"id": 1
+		}
+	],
+	"products": [
+		{
+			"image": "https://sport-nsk.ru/upload/iblock/909/90921961826dd45935d18d2aa6bce636.jpg",
+			"title": "Умные часы",
+			"id": 1,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "12",
+			"category": "часы",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_22588_16539156642301393.jpg",
+			"title": "Монитор сердечного ритма",
+			"id": 2,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "2",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://sc02.alicdn.com/kf/HTB1Tux4XJfvK1RjSszhq6AcGFXa1/234667368/HTB1Tux4XJfvK1RjSszhq6AcGFXa1.jpg",
+			"title": "Монитор сердечного ритма",
+			"id": 3,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "12",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://avatars.mds.yandex.net/get-mpic/4579830/img_id6022380279535085098.jpeg/orig",
+			"title": "Умные часы",
+			"id": 4,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "5",
+			"category": "часы",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://fiziosfera.ru/pictures/product/big/13404_big.jpg",
+			"title": "Гемотоген",
+			"id": 5,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "1",
+			"category": "пища",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://cdn.100sp.ru/pictures/190222411",
+			"title": "Умные часы",
+			"id": 6,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "2",
+			"category": "часы",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://455811.selcdn.ru/vizazh/wp/uploads/2021/12/%D0%9D%D0%B8%D1%82%D1%80%D0%B0%D1%82%D1%8B-%D0%B2-%D0%BE%D0%B2%D0%BE%D1%89%D0%B0%D1%85-%D0%B8-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%B0%D1%85-%D0%B2%D1%81%D1%91-%D0%BE-%D0%B2%D1%80%D0%B5%D0%B4%D0%B5-%D0%B8-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%B5-%D0%B0-%D1%82%D0%B0%D0%BA%D0%B6%D0%B5-%D0%BE-%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B5-%D0%BE%D1%82%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9.jpg",
+			"title": "Монитор содержания нитратов ",
+			"id": 7,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "6",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://cdn.iport.ru/upload/iblock/434/7j8e82vx3g0a46p8bya8j9aqtk6sgul8.jpg",
+			"title": "Весы",
+			"id": 8,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "7",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://webpulse.imgsmail.ru/imgpreview?key=pulse_cabinet-image-8d2c8760-ec37-4936-95a6-ac2cb3b1f2a2&mb=webpulse",
+			"title": "Столовые весы",
+			"id": 9,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "12",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://i.ytimg.com/vi/uXX6AVOBsPY/maxresdefault.jpg",
+			"title": "Больной",
+			"id": 10,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "0",
+			"category": "дио",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://shahty.medtehnikarus.ru/wp-content/uploads/2020/09/korset-ortopedicheskij-poyasnichno-krestcovyj-zhestkij-orlett-lso-981-1-1000x1000-1.jpg",
+			"title": "Корсет",
+			"id": 11,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "22",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://vseapteki.ru/cropping/thumbnails/101/54881/share_default/",
+			"title": "Аскорбинка",
+			"id": 12,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "1",
+			"category": "пища",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://e7.pngegg.com/pngimages/756/279/png-clipart-dumbbell-hantel-dumbbell-hantel.png",
+			"title": "Гантель",
+			"id": 13,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "11",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://sc04.alicdn.com/kf/HTB1BZBVSpXXXXauaFXXq6xXFXXXw.jpg",
+			"title": "Беговая дорожка",
+			"id": 14,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "30",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://cdna.artstation.com/p/assets/covers/images/022/465/342/large/jack-yu-chieh-chang-jojoarrow-arnoldrender01.jpg?1576573976",
+			"title": "Стрела реквием",
+			"id": 15,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "999",
+			"category": "стрела",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://www.zlatmax.ru/images/zlat-1066/trost-klyuka-so-stiletom-40h10s2m-stabilizirovannaya-drevesina-zolochenie-foto-02.webp",
+			"title": "Модная трость",
+			"id": 16,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "22",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://avatars.mds.yandex.net/get-mpic/5236108/img_id3020229149127056102.png/orig",
+			"title": "Монитор сердечного ритма",
+			"id": 17,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "10",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://penza-optika.ru/u/ckupload/files/oftalmologiya_24.jpg",
+			"title": "Линзы",
+			"id": 18,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "12",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://cdn.100sp.ru/pictures/266513045",
+			"title": "Зубная нить ",
+			"id": 19,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "5",
+			"category": "гигиена",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "http://looktips.org/wp-content/uploads/2015/06/chem-polezny-tkanevye-maski.jpg",
+			"title": "Тканевые маски для лица",
+			"id": 20,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "3",
+			"category": "гигиена",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://cdn2.static1-sima-land.com/items/2819927/0/700-nw.jpg",
+			"title": "Лечебные шампуни",
+			"id": 21,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "12",
+			"category": "гигиена",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://ananas.kg/image/cache/catalog/11281-700x770.jpg",
+			"title": "Биокальций зубная паста",
+			"id": 22,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "17",
+			"category": "гигиена",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://s.alicdn.com/@sc04/kf/HTB1B4zMa6zuK1Rjy0Fpq6yEpFXaU.jpg_720x720q50.jpg",
+			"title": "Очки",
+			"id": 23,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "11",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		},
+		{
+			"image": "https://st6.stpulscen.ru/images/product/376/263/434_big.jpg",
+			"title": "фильтр-кувшин для очистки воды",
+			"id": 24,
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Unde abrepudiandae, explicabo voluptate et hic cum ratione a",
+			"price": "18",
+			"category": "быт",
+			"isLike": 0,
+			"comments": []
+		}
+	]
+}

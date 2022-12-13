@@ -1,0 +1,11 @@
+.favorites-list {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fav-image:hover {
+  transform: scale(1.110);
+  transition: 1s;
+}

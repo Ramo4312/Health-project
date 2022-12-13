@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.login-form {
+  font-size: 1.3rem;
+  width: 500px;
+  /* background-color: rgba(255, 255, 255, 0.13); */
+  background: linear-gradient(45deg, rgba(139, 139, 139, .5) 1%, rgb(0, 0, 0, .2), rgb(139, 139, 139, .5), rgb(139, 139, 139, .5), rgb(0, 0, 0, .2), rgb(139, 139, 139, .5));
+  border: 2px solid rgba(255, 255, 255, .3);
+  box-shadow: 0 0 30px rgb(0, 0, 0, .4);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* margin: 7vw 0 0 45vw; */
+  margin: 40px auto;
+  border-radius: 1.6vw;
+}
+
+.login-form>input {
+  width: 70%;
+  height: 40px;
+  border-radius: 13px;
+  text-align: center;
+  border: none;
+  margin: 15px auto;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 0.8em;
+  transition: 0.4s;
+}
+
+.login-form>input:hover {
+  background-color: rgb(0, 187, 255);
+  transform: translateY(-3px);
+}
+
+.login-form>input:focus {
+  transform: translateY(2px);
+  transition: 0.6s;
+  background-color: aliceblue;
+}
+
+.login-form>h3 {
+  text-shadow: 0 3px 0 #000000, 0 -2px 1px rgba(0, 255, 128, 0.574);
+  margin: auto;
+  color: aliceblue;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  background: rgb(0, 255, 136);
+  font-family: 'Electrolize', sans-serif;
+  box-shadow: 0 20px 30px -6px black, 0 0px 4px -8px black;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 13px;
+  width: 200px;
+  height: 40px;
+  margin: 15px auto;
+  transition: 0.5s;
+}
+
+.login-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 30px -6px rgb(0, 140, 255), 0 0px 4px -8px rgb(0, 255, 0),
+    inset 0 0 100px rgb(255, 255, 255);
+  transition: 0.7s;
+}
+
+.login-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 20px 20px -6px rgb(0, 140, 255), 0 0px 1px -8px rgb(0, 255, 0);
+  transition: 0.3s;
+}
+
+.login-form>h5 {
+  display: inline-block;
+  margin: 1vw auto 0.5vw;
+  color: antiquewhite;
+}
+
+.recovery {
+  display: inline-block;
+  margin-top: 0.1vw;
+  margin-left: 140px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+
+.reg-link {
+  display: inline-block;
+  margin: 0.4vw auto;
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}

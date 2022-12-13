@@ -1,0 +1,127 @@
+.market-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product-card {
+	position: relative;
+	/* margin-top: -20px; */
+	width: 300px;
+}
+
+.card-image {
+	border-radius: 19px;
+}
+
+.face {
+	transition: 0.4s;
+	height: 200px;
+	border-radius: 19px !important;
+}
+
+.face1 {
+	position: relative;
+	/* background: #333; */
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	z-index: 1;
+	transform: translateY(0);
+}
+
+.product-card:hover .face.face1 {
+	transform: translateY(20px);
+	box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #f0f,
+		inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+		0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+}
+
+.face.face1 .content {
+	/* opacity: .2; */
+	transition: 0.2s;
+	text-align: center;
+}
+
+.product-card:hover .face.face1 .content {
+	opacity: 1;
+}
+
+.face.face1 .content i {
+	font-size: 3em;
+	color: white;
+	display: inline-block;
+}
+
+.face.face1 .content h3 {
+	font-size: 1em;
+	color: white;
+	text-align: center;
+}
+
+.face.face1 .content .detail-btn {
+	transition: 0.2s;
+}
+
+.face.face2 {
+	opacity: 0;
+	position: relative;
+	background: whitesmoke;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	/* z-index: -1; */
+	box-sizing: border-box;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+	transform: translateY(-200px);
+}
+
+.product-card:hover .face.face2 {
+	transform: translateY(10px);
+	opacity: 1;
+	/* z-index: 1; */
+}
+
+.product-description,
+.detail-btn {
+	font-size: 10pt;
+	margin: 0;
+	padding: 0;
+	color: rgb(0, 0, 0);
+}
+
+.card_btn-block {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.favorite-btn {
+	font-size: 3rem !important;
+	transition: 0.5s !important;
+}
+
+.basket-btn {
+	font-size: 3rem !important;
+	transition: 0.5s !important;
+}
+
+.like-btn {
+	font-size: 3rem !important;
+	transition: 0.5s !important;
+}
+
+.favorite-btn:hover,
+.basket-btn:hover,
+.like-btn:hover {
+	transform: translateY(-3px);
+	transition: 0.2s;
+}
+
+.favorite-btn:active,
+.basket-btn:active,
+.like-btn:active {
+	transform: translateY(0px);
+}

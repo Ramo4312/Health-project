@@ -1,0 +1,116 @@
+/* form {
+  margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  border-radius: 0;
+} */
+
+.h-100 {
+  margin-top: 10px;
+  /* box-shadow: 10px 10px 10px 10px black; */
+}
+
+.form-control {
+  width: 300px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 2px 0 rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 30px;
+  font-size: 1.4rem;
+}
+
+.form-control::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+}
+
+.celcium {
+  background: linear-gradient(180deg,
+      #61436f,
+      #995AFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.min {
+  font-size: 1.3rem;
+  /* background: linear-gradient(180deg, #7b7b7b,
+      #4200ac,
+      rgb(55, 55, 55) 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #61436f;
+}
+
+.max {
+  font-size: 1.3rem;
+
+  /* background: linear-gradient(180deg,
+      #cc5dff,
+      #320083,
+      #043BFF1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #61436f;
+}
+
+.btn-warning {
+  background: linear-gradient(to top, rgb(127, 127, 127), rgb(104, 235, 124));
+  border: none;
+  width: 200px;
+  border-radius: 14px;
+  box-shadow: 0 0 30px -5px rgb(9, 9, 9);
+  height: 40px;
+  font-size: large;
+  transition: .5s;
+}
+
+.btn-warning:hover {
+  transform: translateY(-3px);
+  transition: .4s;
+}
+
+.btn-warning:active {
+  transform: translateY(2px);
+  translate: .4s;
+  box-shadow: 0 0 25px rgb(255, 149, 0);
+}
+
+.form-control:focus {
+  box-shadow: 0 2px 0 rgb(255, 149, 0);
+  transition: .5s;
+}
+
+.form-control:focus::placeholder {
+  color: transparent;
+}
+
+
+#cloudsIcons {
+  /* background: linear-gradient(180deg,
+      #000000,
+      rgb(81, 111, 114),
+      #656565);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 6rem;
+  margin-top: 20px !important;
+  color: #505050;
+}
+
+.clouds {
+  background: linear-gradient(#505050 50%,
+      #5c09d0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+}

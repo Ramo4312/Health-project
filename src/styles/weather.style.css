@@ -1,0 +1,16 @@
+.weather-container {
+  margin-top: 5.2em;
+}
+
+
+
+.weather-h1 {
+  color: rgb(52, 52, 52);
+  /* background: linear-gradient(180deg,
+      #000,
+      #00ff73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  margin-bottom: 1.5rem;
+  font-size: 3.2rem;
+}
