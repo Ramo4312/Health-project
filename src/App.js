@@ -6,6 +6,7 @@ import ProductContextProvider from './contexts/productsContext'
 import { PersonContextProvider } from './contexts/peopleDataContext'
 import FavoriteContextProvider from './contexts/favotiteContext'
 import BasketContextProvider from './contexts/basketContext'
+import MainRoutes from './MainRoutes'
 
 function App() {
 	return (
@@ -14,8 +15,9 @@ function App() {
 				<PersonContextProvider>
 					<ProductContextProvider>
 						<AuthContextProvider>
-							<Background />
-							<SiteBar />
+							{/* <Background /> */}
+							{/* <SiteBar /> */}
+							<MainRoutes />
 						</AuthContextProvider>
 					</ProductContextProvider>
 				</PersonContextProvider>
