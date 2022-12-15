@@ -51,7 +51,7 @@ const RegistrationPage = () => {
 			<div className='register-form-page-background-4'></div>
 
 			<div className='register-form'>
-				<h3>Регистрация</h3>
+				<h3>Регистрация </h3>
 
 				<div className='input-desc'>Имя</div>
 				<input
@@ -71,10 +71,11 @@ const RegistrationPage = () => {
 
 				<div className='age-gender-block'>
 					<span>Возраст</span>
-					<input className='age-input' />
-					<select className='gender-select'>
-						<option>муж <input type="radio"/></option>
-						<option>жен <input type="radio"/></option>
+					<input />
+					<select name='Пол'>
+						<option>Пол</option>
+						<option>муж</option>
+						<option>жен</option>
 					</select>
 				</div>
 
