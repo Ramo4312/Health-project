@@ -44,64 +44,62 @@ const RegistrationPage = () => {
 
 	// console.log(surname)
 	return (
-		<motion.div
-			className='registration-page'
-			initial={{ width: 0, opacity: 0 }}
-			animate={{ width: '80vw', opacity: 1 }}
-			exit={{ width: window.innerWidth, opacity: 0 }}
-		>
-			<div className='register-form-back'>
-				<div className='register-group'>
+		<div className='register-form-page'>
+			<div className='register-form'>
 
-					<h3>Sign Up</h3>
+				<h3>Регистрация</h3>
 
-					<div className='input-desc'>Nickname:</div>
-					<input
-						value={username}
-						onChange={(e) => setNickname(e.target.value)}
-						type='text'
-						placeholder='Nickname'
-						className='nickname-inp'
-					/>
+				<div className='input-desc'>Имя</div>
+				<input
+					value={username}
+					onChange={(e) => setNickname(e.target.value)}
+					type='text'
+					className='nickname-inp'
+				/>
 
-					<div className='input-desc'>Email:</div>
-					<input
-						value={email}
-						onChange={(e) => setEmail(e.target.value)}
-						type='text'
-						placeholder='Email'
-						className='reg_email-inp'
-					/>
+				<div className='input-desc'>Email</div>
+				<input
+					value={email}
+					onChange={(e) => setEmail(e.target.value)}
+					type='text'
+					className='reg_email-inp'
+				/>
 
-					<div className='input-desc'>Password:</div>
-					<input
-						value={password}
-						onChange={(e) => setPassword(e.target.value)}
-						type='text'
-						placeholder='Password'
-						className='reg_password-inp'
-					/>
-
-					<div className='input-desc'>Password confirmation:</div>
-					<input
-						value={password2}
-						onChange={(e) => setPassword2(e.target.value)}
-						type='text'
-						placeholder='Password Confirmation'
-						className='passwordConf-input'
-					/>
-
-					<button className='register-btn' onClick={registerSystem}>
-						Sign Up
-					</button>
-
-					<button className='register-btn-log-in' onClick={registerSystem}>
-						Log in
-					</button>
-
+				<div className='age-gender-block'>
+					<span>Возраст</span>
+					<input className='age-input' />
+					<select className='gender-select'>
+						<div>5</div>
+						<span>7</span>
+					</select>
 				</div>
+
+				<div className='input-desc'>Пароль</div>
+				<input
+					value={password}
+					onChange={(e) => setPassword(e.target.value)}
+					type='text'
+					className='reg_password-inp'
+				/>
+
+				<div className='input-desc'>Повторите пароль</div>
+				<input
+					value={password2}
+					onChange={(e) => setPassword2(e.target.value)}
+					type='text'
+					className='passwordConf-input'
+				/>
+
+				<button className='register-btn' onClick={registerSystem}>
+					Регистрация
+				</button>
+
+				<button className='register-btn-log-in' onClick={registerSystem}>
+					Вход
+				</button>
+
 			</div>
-		</motion.div>
+		</div>
 	)
 }
 

@@ -1,36 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
-.register-form-back {
-	width: 1440px;
+.register-form-page {
+	width: 100%;
 	height: 1024px;
-	position: relative;
-	background: #338BB1;
-	margin: auto;
+	background: linear-gradient(
+		90deg,
+		#3a4abb,
+		#338BB1,
+		rgba(106, 121, 252, 0.7),
+		#B5BCF0,
+		#E7E8EF,
+		#2332a7
+	);
+	margin: 0 auto;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
 }
 
-.register-group {
-    position: absolute;
-    width: 509px;
-    height: 579px;
+.register-form {
+    width: 459px;
+    height: 616px;
     border-radius: 16px;
-    margin-left: 466px;
-    margin-top: 210px;
+	margin: 0 auto;
     background: #FFFFFF;
-	padding-left: 86px;
-	padding-top: 30px;
+	padding: 30px 79.5px 0px 79.5px ;
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 22px;
+	color: #001233;
 }
 
-.register-group h3 {
+.register-form h3 {
     width: 203px;
     height: 39px;
-    margin-left: 67px;
-	margin-right: 67px;
-	margin-bottom: 3px;
+    margin-left: 48.5px;
+	margin-right: 48.5px;
+	margin-bottom: 12px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -39,33 +48,62 @@
     text-align: center;
 }
 
-.register-group .input-desc {
+.register-form .input-desc {
 	height: 22px;
-	width: 337px;
-	margin-top: 9px;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
-.register-group input {
-    width: 337px;
-    height: 45px;
-	margin-top: 10px;
+.register-form input {
+	width: 100%;
+    height: 40px;
+	margin-bottom: 10px;
 	border: 1px solid #001233;
     border-radius: 8px;
 	box-sizing: border-box;
     text-align: center;
     transition: 0.4s;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.age-gender-block {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.age-gender-block .age-input {
+	box-sizing: border-box;
+	width: 70px;
+	height: 100%;
+	margin-left: 10px;
+	border: 1px solid #001233;
+	border-radius: 8px;
+}
+
+.age-gender-block .gender-select {
+    box-sizing: border-box;
+    width: 94px;
+    height: 100%;
+	margin-left: 40px;
+    border: 1px solid #001233;
+    border-radius: 8px;
 }
 
 .register-btn { 
     font-size: 20px;
     line-height: 24px;
     transition: 0.5s;
+	border: none;
     border-radius: 8px;
-	margin-top: 21px;
-	margin-left: 30px;
+	margin-top: 35px;
+	margin-left: 11.5px;
+	margin-bottom: 16px;
     width: 278px;
     height: 44px;
     background: #5669FF;
+	color: #E7E8EF;
 }
 
 .register-btn-log-in {
@@ -74,8 +112,7 @@
     transition: 0.5s;
     border: 1px solid #001233;
     border-radius: 8px;
-	margin-top: 17px;
-	margin-left: 30px;
+	margin-left: 11.5px;
     width: 278px;
     height: 44px;
     background: #FFFFFF;
@@ -87,6 +124,7 @@
 		inset 0 0 100px rgb(255, 255, 255);
 	transition: 0.7s;
 	border: none;
+	color: #2f3248;
 }
 
 .register-btn:active {
