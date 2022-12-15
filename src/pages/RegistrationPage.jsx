@@ -73,7 +73,7 @@ const RegistrationPage = () => {
 						className='reg_email-inp'
 					/>
 
-					<div className='input-desc'>Password</div>
+					<div className='input-desc'>Password:</div>
 					<input
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
@@ -82,7 +82,7 @@ const RegistrationPage = () => {
 						className='reg_password-inp'
 					/>
 
-					<div className='input-desc'>Password confirmation</div>
+					<div className='input-desc'>Password confirmation:</div>
 					<input
 						value={password2}
 						onChange={(e) => setPassword2(e.target.value)}
