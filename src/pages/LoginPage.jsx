@@ -1,50 +1,62 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './loginPage.css';
+import '../styles/LoginPage.css';
+import LoginClose from '../images/close.svg';
 
 const LoginPage = () => {
 	
 	return (
 		<main>
 			<section className="login-container">
-				<h3 className='login-title'>Войти</h3>
-				<form className="login-form">
-					<label>
-						Имя
-					</label>
-					<p>
-						<input 
-							type="username" 			
-							className="login-username" 
-						/>
-					</p>
+				<div className='login-inner'>
+					<div className="login-content">
+						<img src={LoginClose} alt="icon-close" className="login-close" />
+						<h3 className='login-title'>Войти
+						</h3>
+						<form className="login-form">
+							<label>
+								Имя
+							</label>
+							<input 
+								type="username" 			
+								className="login-username" 
+							/>
+							<label>
+								Пароль
+							</label>
+							<input 
+								type="password"
+								className="login-password" 
+							/>
+						</form>
 					
-					<label>
-						Пароль
-					</label>
-					<p>
-						<input 
-							type="password"
-							className="login-password" 
-						/>
-					</p>
-				</form>
-					
-				<div className="forgot-pass">
-					<Link to="/forgotpassword" className="forgot-pass-link">
-						Забыли пароль?
-					</Link>
-				</div>
-				<div className="login-buttons">
-					<button className="login-btn">
-						Войти
-					</button>
-					<div className="registration-btn">
-						<Link className='registration-link' to='/registration'>
-							Регистрация
-						</Link>
+						<div className="forgot-pass">
+							<Link 
+								to="/forgotpassword" 
+								className="forgot-pass-link"
+							>
+								Забыли пароль?
+							</Link>
+						
+							<button className="login-btn">
+								Войти
+							</button>
+							
+							<Link 
+								className='registration-link' 
+								to='/registration'
+							>
+								Регистрация
+							</Link>
+							
+						</div>
 					</div>
 				</div>
+				<div className="log-ellips-1"></div>
+				<div className="log-ellips-2"></div>
+				<div className="log-ellips-3"></div>
+				<div className="log-ellips-4"></div>
+				<div className="log-ellips-5"></div>
 			</section>
 		</main>
 	)
