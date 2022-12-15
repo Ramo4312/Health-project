@@ -2,17 +2,9 @@
 
 .register-form {
 	font-size: 1.3rem;
-	width: 500px;
-	/* background: rgba(139, 139, 139, 0.5); */
-	background: linear-gradient(
-		45deg,
-		rgba(139, 139, 139, 0.5) 1%,
-		rgb(0, 0, 0, 0.3),
-		rgb(139, 139, 139, 0.5),
-		rgb(139, 139, 139, 0.5),
-		rgb(0, 0, 0, 0.1),
-		rgb(139, 139, 139, 0.5)
-	);
+	width: 1440px;
+	height: 1024px;
+	position: relative;
 	border: 2px solid rgba(255, 255, 255, 0.3);
 	box-shadow: 0 0 30px rgb(0, 0, 0, 0.4);
 	/* padding: 20px; */
@@ -20,21 +12,29 @@
 	flex-direction: column;
 	margin: 45px auto;
 	border-radius: 1.6vw;
-	/* backdrop-filter: blur(13px); */
 }
 
-.register-form > input {
-	width: 70%;
-	height: 40px;
-	border-radius: 13px;
-	text-align: center;
-	border: none;
-	margin: 15px auto;
-	font-family: 'Electrolize', sans-serif;
-	font-size: 0.8em;
-	transition: 0.4s;
+.register-group {
+    position: absolute;
+    width: 509px;
+    height: 579px;
+    border-radius: 16px;
+    margin-left: 466px;
+    margin-top: 210px;
+    background: #5669FF;
 }
 
+.register-form>input {
+    width: 70%;
+    height: 40px;
+    border-radius: 13px;
+    text-align: center;
+    border: none;
+    margin: 15px auto;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 0.8em;
+    transition: 0.4s;
+}
 .register-form > input:hover {
 	background-color: rgba(122, 253, 190, 0.698);
 	transform: translateY(-3px);
@@ -46,17 +46,18 @@
 	background-color: aliceblue;
 }
 
-.register-form > h3 {
-	text-shadow: 0 3px 0 #000000, 0 -2px 1px rgba(0, 255, 128, 0.574);
-	margin: auto;
-	color: aliceblue;
-	font-family: 'Electrolize', sans-serif;
-	font-size: 1.8em;
-	margin-bottom: 20px;
-}
+.register-form h3 {
+    width: 203px;
+    height: 39px;
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
 .register-btn {
-	background: rgb(0, 255, 136);
+	background: #5669FF;
 	font-family: 'Electrolize', sans-serif;
 	/* box-shadow: 0 20px 30px -6px black, 0 0px 4px -8px black; */
 	font-size: 1.2rem;

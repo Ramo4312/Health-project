@@ -50,54 +50,59 @@ const RegistrationPage = () => {
 			animate={{ width: '80vw', opacity: 1 }}
 			exit={{ width: window.innerWidth, opacity: 0 }}
 		>
-			<div className='register-form'>
-				<h3>Sign Up</h3>
+			<div className='register-form-back'>
+				<div className='register-group'>
+					<h3>Sign Up</h3>
 
-				{/* <input
-					value={name}
-					onChange={e => setName(e.target.value)}
-					type='text'
-					placeholder='Name'
-					className='reg_name-inp'
-				/>
-				<input
-					value={surname}
-					onChange={e => setSurname(e.target.value)}
-					type='text'
-					placeholder='Surname'
-					className='reg_surname-inp'
-				/> */}
-				<input
-					value={username}
-					onChange={(e) => setNickname(e.target.value)}
-					type='text'
-					placeholder='Nickname'
-					className='nickname-inp'
-				/>
-				<input
-					value={email}
-					onChange={(e) => setEmail(e.target.value)}
-					type='text'
-					placeholder='Email'
-					className='reg_email-inp'
-				/>
-				<input
-					value={password}
-					onChange={(e) => setPassword(e.target.value)}
-					type='text'
-					placeholder='Password'
-					className='reg_password-inp'
-				/>
-				<input
-					value={password2}
-					onChange={(e) => setPassword2(e.target.value)}
-					type='text'
-					placeholder='Password Confirmation'
-					className='passwordConf-input'
-				/>
-				<button className='register-btn' onClick={registerSystem}>
-					Sign Up
-				</button>
+					<div>
+						<span>Nickname</span>
+						<input
+							value={username}
+							onChange={(e) => setNickname(e.target.value)}
+							type='text'
+							placeholder='Nickname'
+							className='nickname-inp'
+						/>
+					</div>
+
+					<div>
+						<span>Email</span>
+						<input
+							value={email}
+							onChange={(e) => setEmail(e.target.value)}
+							type='text'
+							placeholder='Email'
+							className='reg_email-inp'
+						/>
+					</div>
+					<div>
+
+						<div>
+
+							<span>Password</span>
+							<input
+								value={password}
+								onChange={(e) => setPassword(e.target.value)}
+								type='text'
+								placeholder='Password'
+								className='reg_password-inp'
+							/>
+						</div>
+
+					</div>
+					<span>Password confirmation</span>
+					<input
+						value={password2}
+						onChange={(e) => setPassword2(e.target.value)}
+						type='text'
+						placeholder='Password Confirmation'
+						className='passwordConf-input'
+					/>
+
+					<button className='register-btn' onClick={registerSystem}>
+						Sign Up
+					</button>
+				</div>
 			</div>
 		</motion.div>
 	)
