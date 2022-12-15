@@ -1,97 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.login-container {
+  max-width: 509px;
+  height: 447px;
+  background: #D9D9D9;
+  margin: 288px auto;
+}
 
 .login-form {
-  font-size: 1.3rem;
-  width: 500px;
-  /* background-color: rgba(255, 255, 255, 0.13); */
-  background: linear-gradient(45deg, rgba(139, 139, 139, .5) 1%, rgb(0, 0, 0, .2), rgb(139, 139, 139, .5), rgb(139, 139, 139, .5), rgb(0, 0, 0, .2), rgb(139, 139, 139, .5));
-  border: 2px solid rgba(255, 255, 255, .3);
-  box-shadow: 0 0 30px rgb(0, 0, 0, .4);
-  padding: 20px;
   display: flex;
   flex-direction: column;
-  /* margin: 7vw 0 0 45vw; */
-  margin: 40px auto;
-  border-radius: 1.6vw;
+  /* align-items: center; */
+  padding-left: 77px;
+  gap: 7px;
 }
 
-.login-form>input {
-  width: 70%;
-  height: 40px;
-  border-radius: 13px;
+label {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.login-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
   text-align: center;
-  border: none;
-  margin: 15px auto;
-  font-family: 'Electrolize', sans-serif;
-  font-size: 0.8em;
-  transition: 0.4s;
+  padding: 29px 0 13px;
 }
 
-.login-form>input:hover {
-  background-color: rgb(0, 187, 255);
-  transform: translateY(-3px);
+.login-username,
+.login-password {
+  padding-left: 15px;
+  width: 340px;
+  height: 41px;
+  border: 1px solid #1E1E1E;
+  outline: none;
 }
 
-.login-form>input:focus {
-  transform: translateY(2px);
-  transition: 0.6s;
-  background-color: aliceblue;
+.login-username {
+  margin-bottom: 18px;
 }
 
-.login-form>h3 {
-  text-shadow: 0 3px 0 #000000, 0 -2px 1px rgba(0, 255, 128, 0.574);
-  margin: auto;
-  color: aliceblue;
-  font-family: 'Electrolize', sans-serif;
-  font-size: 1.8em;
-  margin-bottom: 20px;
+.login-password {
+  margin-bottom: 12px;
+}
+
+.forgot-pass {
+  margin-bottom: 18px;
+  padding-left: 190px;
+}
+
+.forgot-pass-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.8;
+}
+
+.login-buttons {
+  text-align: center;
 }
 
 .login-btn {
-  background: rgb(0, 255, 136);
-  font-family: 'Electrolize', sans-serif;
-  box-shadow: 0 20px 30px -6px black, 0 0px 4px -8px black;
-  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding: 10px 109.5px;
   border: none;
-  border-radius: 13px;
-  width: 200px;
-  height: 40px;
-  margin: 15px auto;
-  transition: 0.5s;
-}
-
-.login-btn:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 30px -6px rgb(0, 140, 255), 0 0px 4px -8px rgb(0, 255, 0),
-    inset 0 0 100px rgb(255, 255, 255);
-  transition: 0.7s;
-}
-
-.login-btn:active {
-  transform: translateY(2px);
-  box-shadow: 0 20px 20px -6px rgb(0, 140, 255), 0 0px 1px -8px rgb(0, 255, 0);
-  transition: 0.3s;
-}
-
-.login-form>h5 {
-  display: inline-block;
-  margin: 1vw auto 0.5vw;
-  color: antiquewhite;
-}
-
-.recovery {
-  display: inline-block;
-  margin-top: 0.1vw;
-  margin-left: 140px;
-  text-decoration: underline;
+  margin-bottom: 20px;
   cursor: pointer;
-  color: blue;
 }
 
-.reg-link {
+.registration-btn {
+
+  margin-bottom: 40px;
+}
+
+.registration-link {
+  border: 1px solid #FFFFFF;
+  padding: 9px 75.5px;
   display: inline-block;
-  margin: 0.4vw auto;
-  text-decoration: underline;
-  cursor: pointer;
-  color: blue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
