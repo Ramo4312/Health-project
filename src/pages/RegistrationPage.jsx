@@ -52,45 +52,37 @@ const RegistrationPage = () => {
 		>
 			<div className='register-form-back'>
 				<div className='register-group'>
+
 					<h3>Sign Up</h3>
 
-					<div>
-						<span>Nickname</span>
-						<input
-							value={username}
-							onChange={(e) => setNickname(e.target.value)}
-							type='text'
-							placeholder='Nickname'
-							className='nickname-inp'
-						/>
-					</div>
+					<div className='input-desc'>Nickname:</div>
+					<input
+						value={username}
+						onChange={(e) => setNickname(e.target.value)}
+						type='text'
+						placeholder='Nickname'
+						className='nickname-inp'
+					/>
 
-					<div>
-						<span>Email</span>
-						<input
-							value={email}
-							onChange={(e) => setEmail(e.target.value)}
-							type='text'
-							placeholder='Email'
-							className='reg_email-inp'
-						/>
-					</div>
-					<div>
+					<div className='input-desc'>Email:</div>
+					<input
+						value={email}
+						onChange={(e) => setEmail(e.target.value)}
+						type='text'
+						placeholder='Email'
+						className='reg_email-inp'
+					/>
 
-						<div>
+					<div className='input-desc'>Password</div>
+					<input
+						value={password}
+						onChange={(e) => setPassword(e.target.value)}
+						type='text'
+						placeholder='Password'
+						className='reg_password-inp'
+					/>
 
-							<span>Password</span>
-							<input
-								value={password}
-								onChange={(e) => setPassword(e.target.value)}
-								type='text'
-								placeholder='Password'
-								className='reg_password-inp'
-							/>
-						</div>
-
-					</div>
-					<span>Password confirmation</span>
+					<div className='input-desc'>Password confirmation</div>
 					<input
 						value={password2}
 						onChange={(e) => setPassword2(e.target.value)}
@@ -102,6 +94,11 @@ const RegistrationPage = () => {
 					<button className='register-btn' onClick={registerSystem}>
 						Sign Up
 					</button>
+
+					<button className='register-btn-log-in' onClick={registerSystem}>
+						Log in
+					</button>
+
 				</div>
 			</div>
 		</motion.div>
