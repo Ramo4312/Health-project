@@ -45,8 +45,12 @@ const RegistrationPage = () => {
 	// console.log(surname)
 	return (
 		<div className='register-form-page'>
-			<div className='register-form'>
+			<div className='register-form-page-background-1'></div>
+			<div className='register-form-page-background-2'></div>
+			<div className='register-form-page-background-3'></div>
+			<div className='register-form-page-background-4'></div>
 
+			<div className='register-form'>
 				<h3>Регистрация</h3>
 
 				<div className='input-desc'>Имя</div>
@@ -69,8 +73,8 @@ const RegistrationPage = () => {
 					<span>Возраст</span>
 					<input className='age-input' />
 					<select className='gender-select'>
-						<div>5</div>
-						<span>7</span>
+						<option>муж <input type="radio"/></option>
+						<option>жен <input type="radio"/></option>
 					</select>
 				</div>
 
@@ -97,7 +101,7 @@ const RegistrationPage = () => {
 				<button className='register-btn-log-in' onClick={registerSystem}>
 					Вход
 				</button>
-
+				
 			</div>
 		</div>
 	)
