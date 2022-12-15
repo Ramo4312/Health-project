@@ -44,62 +44,67 @@ const RegistrationPage = () => {
 
 	// console.log(surname)
 	return (
-		<motion.div
-			className='registration-page'
-			initial={{ width: 0, opacity: 0 }}
-			animate={{ width: '80vw', opacity: 1 }}
-			exit={{ width: window.innerWidth, opacity: 0 }}
-		>
-			<div className='register-form'>
-				<h3>Sign Up</h3>
+		<div className='register-form-page'>
+			<div className='register-form-page-background-1'></div>
+			<div className='register-form-page-background-2'></div>
+			<div className='register-form-page-background-3'></div>
+			<div className='register-form-page-background-4'></div>
 
-				{/* <input
-					value={name}
-					onChange={e => setName(e.target.value)}
-					type='text'
-					placeholder='Name'
-					className='reg_name-inp'
-				/>
-				<input
-					value={surname}
-					onChange={e => setSurname(e.target.value)}
-					type='text'
-					placeholder='Surname'
-					className='reg_surname-inp'
-				/> */}
+			<div className='register-form'>
+				<h3>Регистрация </h3>
+
+				<div className='input-desc'>Имя</div>
 				<input
 					value={username}
 					onChange={(e) => setNickname(e.target.value)}
 					type='text'
-					placeholder='Nickname'
 					className='nickname-inp'
 				/>
+
+				<div className='input-desc'>Email</div>
 				<input
 					value={email}
 					onChange={(e) => setEmail(e.target.value)}
 					type='text'
-					placeholder='Email'
 					className='reg_email-inp'
 				/>
+
+				<div className='age-gender-block'>
+					<span>Возраст</span>
+					<input />
+					<select name='Пол'>
+						<option>Пол</option>
+						<option>муж</option>
+						<option>жен</option>
+					</select>
+				</div>
+
+				<div className='input-desc'>Пароль</div>
 				<input
 					value={password}
 					onChange={(e) => setPassword(e.target.value)}
 					type='text'
-					placeholder='Password'
 					className='reg_password-inp'
 				/>
+
+				<div className='input-desc'>Повторите пароль</div>
 				<input
 					value={password2}
 					onChange={(e) => setPassword2(e.target.value)}
 					type='text'
-					placeholder='Password Confirmation'
 					className='passwordConf-input'
 				/>
+
 				<button className='register-btn' onClick={registerSystem}>
-					Sign Up
+					Регистрация
 				</button>
+
+				<button className='register-btn-log-in' onClick={registerSystem}>
+					Вход
+				</button>
+				
 			</div>
-		</motion.div>
+		</div>
 	)
 }
 
