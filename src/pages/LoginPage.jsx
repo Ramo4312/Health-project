@@ -6,8 +6,8 @@ import LoginClose from '../images/close.svg';
 const LoginPage = () => {
 	
 	return (
-		<main>
-			<section className="login-container">
+		<div className="login">
+			<div className="login-container">
 				<div className='login-inner'>
 					<div className="login-content">
 						<img src={LoginClose} alt="icon-close" className="login-close" />
@@ -52,13 +52,17 @@ const LoginPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="log-ellips-1"></div>
-				<div className="log-ellips-2"></div>
-				<div className="log-ellips-3"></div>
-				<div className="log-ellips-4"></div>
-				<div className="log-ellips-5"></div>
-			</section>
-		</main>
+				<div className="log-ellips-group">
+					<div className="log-ellips-1"></div>
+				   <div className="log-ellips-2"></div>
+				   <div className="log-ellips-3"></div>
+				   <div className="log-ellips-4"></div>
+				   <div className="log-ellips-5"></div>
+				</div>
+				</div>
+				
+		
+		</div>
 	)
 }
 
